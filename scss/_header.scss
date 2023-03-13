@@ -1,0 +1,26 @@
+
+.colorNav {
+    background-color: map-get($colores, naranja); 
+    .nav-estilo {
+        display: flex;
+        justify-content: space-around;
+        font-size: 1.3rem;
+        font-weight: $font-bold; 
+        .hover-nav:hover {
+            background-color: map-get($colores, gris);
+            color: map-get($colores, naranja);
+            border: solid;
+            border-radius: 5px;
+            transition: 1s; }
+  
+        .navTexto {
+            font-size: x-large;
+            font-weight: $font-bold; }
+    }
+}
+  
+  
+  
+  
+
+  

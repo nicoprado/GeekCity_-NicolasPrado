@@ -1,0 +1,8 @@
+.colorFooter{
+    background-color: map-get($colores, gris);
+    .iconoIg svg {
+        @include mixin100
+    
+    color: map-get($colores, naranja);}
+    
+}

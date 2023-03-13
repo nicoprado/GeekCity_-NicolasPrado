@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{margin: 0;
+    padding: 0;
+    font-weight: 400; 
+    box-sizing: border-box;
+    font-family: 'philosopher';
+}
+.colorNav{
+    background-color: #f85625;}
+.nav-estilo{
+     display: flex;
+     justify-content:space-around;
+     font-size: 1.3rem;
+     font-weight: bold;
+}
+.hover-nav:hover {
+    background-color: #4d4d4d;
+    color: #f85625 ;
+    border: solid;
+    border-radius: 5px;
+    transition: 1s;
+}
+.navTexto{
+    font-size: x-large;
+    font-weight: bold;
+}
+.tamaño-carousel{
+    height: 30vh;
+}
+.img-carousel{
+    object-fit: cover;
+    height: initial;
+}
+.colorNaranja{
+    background-color:#f85625 ;
+
+}
+.iconoIg svg {
+    width: 100px;
+    height: 100px;
+    color: #f85625;
+}
+.colorFooter{
+    background-color: #4d4d4d;
+}
+.arreglo{
+    height: 80vh;
+}
+@media (min-width: 600px) and (max-width: 800px){
+    .tamaño-carousel{ height: 40vh;
+    }
+}
+@media (min-width: 801px) and (max-width: 1100px){
+    .tamaño-carousel{ height: 50vh;
+    }
+}
+@media (min-width: 1101px) and (max-width: 1200px) {
+    .tamaño-carousel{ height: 60vh;
+    }
+}
+@media (min-width: 1201px) {
+        .tamaño-carousel{ height: 70vh
+    }
+}

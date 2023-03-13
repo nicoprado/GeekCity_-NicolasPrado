@@ -1,0 +1,11 @@
+.tamaño-carousel{
+    height: 30vh;
+    .img-carousel{
+    object-fit: cover;
+    height: initial;}
+}
+
+.colorNaranja{
+    background-color:map-get($colores, naranja) ;
+
+}
