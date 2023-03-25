@@ -1,11 +1,15 @@
-.tamaño-carousel{
-    height: 30vh;
-    .img-carousel{
-    object-fit: cover;
-    height: initial;}
+ .margin2{
+    margin: 2px;
+    padding: 2px;
+    background-color: map-get($colores, gris);
+      .tamaño-carousel{
+        height: 30vh;
+        .img-carousel{
+            object-fit: cover;
+            height: initial;}}
 }
 
-.colorNaranja{
-    background-color:map-get($colores, naranja) ;
+    .colorNaranja{
+     background-color:map-get($colores, naranja) ;
 
 }

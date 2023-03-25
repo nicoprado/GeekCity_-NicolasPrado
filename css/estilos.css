@@ -24,11 +24,15 @@
       font-size: x-large;
       font-weight: bold; }
 
-.tamaño-carousel {
-  height: 30vh; }
-  .tamaño-carousel .img-carousel {
-    object-fit: cover;
-    height: initial; }
+.margin2 {
+  margin: 2px;
+  padding: 2px;
+  background-color: #4d4d4d; }
+  .margin2 .tamaño-carousel {
+    height: 30vh; }
+    .margin2 .tamaño-carousel .img-carousel {
+      object-fit: cover;
+      height: initial; }
 
 .colorNaranja {
   background-color: #f85625; }
@@ -39,8 +43,8 @@
 .colorFooter {
   background-color: #4d4d4d; }
   .colorFooter .iconoIg svg {
-    width: 100px;
     height: 100px;
+    width: 100px;
     color: #f85625; }
 
 @media (min-width: 600px) and (max-width: 800px) {
@@ -58,3 +62,10 @@
 @media (min-width: 1201px) {
   .tamaño-carousel {
     height: 70vh; } }
+
+.margin2 {
+  margin: 2px;
+  padding: 2px; }
+
+.naranja-claro {
+  background-color: #fabeab; }
